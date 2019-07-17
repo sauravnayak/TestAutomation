@@ -12,7 +12,7 @@ public class DesiredCapability {
 	public static WebDriver wd;
 	
 	public WebDriver getDriver(){
-		//Adding Chrome Capabilities to Driver
+		//Adding Chrome Capabilities to Drivernc s
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--disable-notifications");
 		options.setPageLoadStrategy(PageLoadStrategy.NONE);
