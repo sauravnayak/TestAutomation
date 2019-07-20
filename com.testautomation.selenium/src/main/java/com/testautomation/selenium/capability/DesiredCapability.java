@@ -12,7 +12,7 @@ public class DesiredCapability {
 	public static WebDriver wd;
 	
 	public WebDriver getDriver(){
-		//Adding Chvrdomde Capab c ili f grtftcbies tdo Driverc sddymjkjcvhscshcv
+		//Adding Chvrdomde Capab c ili f grtftcbies tdo Driverc sd
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--disable-notifications");
 		options.setPageLoadStrategy(PageLoadStrategy.NONE);
