@@ -1,7 +1,5 @@
 package com.testautomation.selenium.screen;
 
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
@@ -11,14 +9,13 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.Test;
 import java.lang.*;
 
 import com.google.common.annotations.VisibleForTesting;
 import com.testautomation.selenium.capability.DesiredCapability;
 public class LoginScreen {
 	
-	// Global Variable's List
+	// Global Variable's List FVF
 	// driver
 	private WebDriver driver;
 	// URL
