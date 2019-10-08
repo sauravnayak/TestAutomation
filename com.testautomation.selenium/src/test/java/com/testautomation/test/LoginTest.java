@@ -17,6 +17,7 @@ public class LoginTest {
 	@org.junit.Test()
 	public void Logintest() {
 		// Auto-generated method stub
+		//heloo Driver
 		objLogin.login("","");
 		//driver.quit();
 	}
